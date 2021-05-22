@@ -1,0 +1,31 @@
+.grid{
+    /* align-content: center; */
+    /* align-items: center; */
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    position: relative;
+    align-content: center;
+    width: 540px;
+    height: 540px;
+    background-color: white;
+}
+
+.grid > div{
+    
+    flex-direction: row;
+    width: 58px;
+    height: 58px;
+    border: black solid 1px;
+}
+
+#resultDisplay{
+    /* margin: auto; */
+    margin: 8px;
+    text-align: center;
+}
+
+#resetButton{
+    margin: 0 auto;
+    display: block;
+}
